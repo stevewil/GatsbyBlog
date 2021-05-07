@@ -6,8 +6,7 @@ const config = {
   baseUrl: 'https://dev-62863784.okta.com',
   clientId: '0oapbg07nliyq4WTI5d6',
   logo: '//logo.clearbit.com/gatsbyjs.org',
-  // redirectUri: typeof window !== 'undefined' && window.location.origin + '/account',
-  redirectUri: '/account',
+  redirectUri: typeof window !== 'undefined' && window.location.origin + '/account',
   el: '#signIn',
   authParams: {
     issuer: 'https://dev-62863784.okta.com/oauth2/default',
